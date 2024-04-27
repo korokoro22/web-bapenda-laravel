@@ -1,0 +1,13 @@
+catatan:
+1. database: 
+	-nullable perlu diubah:
+		-namafile
+		-keterangan
+	-tambahkan id
+	-tabel 'masuk'
+
+2. perbaiki UI: 
+	- halaman depan
+
+3. nama file pdf saat disimpan
+ 
