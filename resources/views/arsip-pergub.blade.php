@@ -75,7 +75,7 @@
                     {{$arsip->namafile}}
                 </td>
                 <td class="px-6 py-4">
-                    <a href="arsip-pergub/{{$arsip->id}}/edit" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-6 rounded">Edit</a>
+                    <a href="arsip-pergub/{{$arsip->id}}/edit" class="bg-yellow-300 hover:bg-yellow-700 text-white font-bold py-2 px-6 rounded">Edit</a>
                     
                     <form action="arsip-pergub/{{$arsip->id}}" method="POST" class="mt-3">
                         @method('delete')

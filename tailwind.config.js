@@ -4,6 +4,7 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -12,13 +13,18 @@ export default {
         'biruFooter'  : '#05045A',
         'biruMuda'    : '#4DBBEB',
         'newBlack'    : '#191919',
-        'greenButton' : '#07BC3A'
+        'greenButton' : '#07BC3A',
+        'greyBg'      : '#F5F7F8',
+        'yellowEdit'  : '#FDE767',
+        'navbarNew'   : '#cec1c1'
       },
       fontFamily: {
         'inter': 'Inter',   
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }
 

@@ -53,7 +53,7 @@
     
     <div class="mb-5 w-full ">
         <button type="submit" class="p-2 rounded-md text-white bg-green-500 mr-2 hover:bg-green-700 font-inter">SIMPAN</button>
-        <a href="surat-masuk" class="p-2 rounded-md bg-gray-400 hover:bg-gray-600 text-white font-inter">KEMBALI</a>
+        <a href="/surat-masuk" class="p-2 rounded-md bg-gray-400 hover:bg-gray-600 text-white font-inter">KEMBALI</a>
     </div>
 
     

@@ -83,7 +83,7 @@
                     {{$keluar->namafile}}
                 </td>
                 <td class="px-6 py-4">
-                    <a href="surat-keluar/{{$keluar->id}}/edit" class=" bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-7 rounded">EDIT</a>
+                    <a href="surat-keluar/{{$keluar->id}}/edit" class=" bg-yellow-300 hover:bg-yellow-700 text-white font-bold py-2 px-7 rounded">EDIT</a>
                     <form action="surat-keluar/{{$keluar->id}}" method="POST" class="mt-3">
                         @method('delete') 
                         @csrf

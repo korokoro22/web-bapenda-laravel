@@ -2,11 +2,11 @@
 @section('title', 'home')
 
 @section('content')
-  <div class="w-full py-1 flex flex-col items-center">
+  <div class="w-6/7 py-1 flex flex-col items-center my-4 border-b-2 mx-auto">
     <h1 class="font-inter font-bold text-newBlack">ADMINISTRASI PERSURATAN</h1>
     <h1 class="font-inter font-bold text-newBlack">BAPENDA</h1>
   </div>
-    <div class="md:grid grid-cols-2 gap-2 mb-6">
+    <div class="w-5/6 mx-auto md:grid grid-cols-2 gap-2 mb-6">
       <div class="m-1 bg-gray-100 flex items-center justify-center border-solid border-2 rounded hover:bg-gray-200">
         <a href="surat-masuk" class="py-1.5 space-y-1 w-full flex flex-col text-center">
           <img src="{{asset('assets/suratmasuk.png')}}" alt="" class="size-10 mx-auto">

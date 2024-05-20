@@ -18,27 +18,33 @@
 <nav class=" w-full px-10 bg-merahNavbar h-20 flex justify-between items-center">
   <div class="">
     <a href="/" class="flex justify-center items-center">
-      <img src="{{asset('assets/logobapenda.png')}}" alt="logo bapenda" class="size-10">
-      <div class="pl-2">
+      <img src="{{asset('assets/bapendalogo.png')}}" alt="logo bapenda" class="w-14">
+      <img src="{{asset('assets/logobapenda2.png')}}" alt="logo bapenda" class="w-20">
+      {{-- <div class="pl-2">
         <p class="font-inter text-white">BAPENDA</p>
         <p class="font-inter text-white">SULAWESI SELATAN</p>
-      </div>
+      </div> --}}
     </a>
   </div>
   <div class="flex w-2/5 justify-evenly">
-    <a href="/" class="font-inter text-white hover:text-biruFooter">Home</a>
-    <a href="surat-masuk" class="font-inter text-white hover:text-biruFooter">Surat Masuk</a>
-    <a href="surat-keluar" class="font-inter text-white hover:text-biruFooter">Surat Keluar</a>
-    <a href="arsip-pergub" class="font-inter text-white hover:text-biruFooter">Arsip Pergub</a>
-    <a href="/logout" class="font-inter text-white hover:text-biruFooter">Keluar</a>
+    <a href="/" class="font-inter text-white hover:text-newBlack">Home</a>
+    <a href="surat-masuk" class="font-inter text-white hover:text-newBlack">Surat Masuk</a>
+    <a href="surat-keluar" class="font-inter text-white hover:text-newBlack">Surat Keluar</a>
+    <a href="arsip-pergub" class="font-inter text-white hover:text-newBlack">Arsip Pergub</a>
+    <a href="/logout" class="font-inter text-white hover:text-newBlack">Keluar</a>
   </div>
   
 </nav>
 
 
+
+
 <div class="flex-grow">
-@yield('content')
+  @yield('content')
 </div>
+
+
+
 
 <footer class="bg-biruFooter h-6">
   <p class="text-white text-sm text-center font-inter">copyright @ 2023 Unhas</p>

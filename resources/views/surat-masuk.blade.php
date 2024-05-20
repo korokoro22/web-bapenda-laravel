@@ -34,7 +34,7 @@
 
 
 <div class="w-11/12 mx-auto my-7 shadow-md sm:rounded-lg">
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 table-fixed">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 font-inter">
             <tr>
                 <th scope="col" class="px-6 py-3">
@@ -58,7 +58,7 @@
                 <th scope="col" class="px-6 py-3">
                     PERIHAL
                 </th>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" class="px-6 py-3 w-40">
                     BERKAS
                 </th>
                 <th scope="col" class="px-6 py-3">
@@ -90,11 +90,11 @@
                 <td class="px-6 py-4">
                     {{$masuk->isiringkas}}
                 </td>
-                <td class="px-4 py-4">
+                <td class="px-6 py-4 break-words w-40">
                     {{$masuk->namafile}}
                 </td>
                 <td class="px-6 py-4">
-                    <a href="surat-masuk/{{$masuk->id}}/edit" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-6 rounded">Edit</a>
+                    <a href="surat-masuk/{{$masuk->id}}/edit" class="bg-yellow-300 hover:bg-yellow-700 text-white font-bold py-2 px-6 rounded">Edit</a>
                     
                     <form action="surat-masuk/{{$masuk->id}}" method="POST" class="mt-3">
                         @method('delete')

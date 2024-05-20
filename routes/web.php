@@ -25,6 +25,9 @@ Route::get('/home', function () {
     return view('menu-utama');
 })->middleware('auth:masuk'); 
 
+Route::get('/testing', function() {
+    return view('testing');
+});
 
 // Route::get('/surat-masuk', [SuratmasukController::class, 'index']);
 // Route::get('/surat-masuk-tambah', [SuratmasukController::class, 'create']);

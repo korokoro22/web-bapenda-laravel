@@ -14,7 +14,7 @@
 </head>
 <body class="w-full h-screen bg-merahNavbar relative flex justify-center items-center">
 
-    <div class="bg-biruFooter absolute h-1/3 w-11/12"></div>
+    <div class="bg-biruFooter absolute h-1/3 w-11/12 rounded-lg"></div>
     @if (Session::has('status'))
         <div>
             {{Session::get('message')}}
@@ -36,7 +36,10 @@
                 </div>
             </form>
         </div>
-        <div class="bg-green-400        h-full  w-5/12  "></div>
+        <div class="flex h-full  w-5/12 items-center ">
+            <img src={{asset('assets/bapendalogo.png')}} alt="" class="w-44">
+            <img src={{asset('assets/logobapenda2.png')}} alt="" class="w-61">
+        </div>
     </div>
 </body>
 </html>
